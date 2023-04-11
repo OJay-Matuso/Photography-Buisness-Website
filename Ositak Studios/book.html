@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ositak Studios</title>
+    <link rel="stylesheet" href="style-o.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,200&display=swap'); </style>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css.">    
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index-o.html">HOME</a></li>
+                    <li><a href="about-o.html">ABOUT</a></li>
+                    <li><a href="founder.html">FOUNDER</a></li>
+                    <li><a href="socials-o.html">SOCIALS</a></li>
+                    <li><a href="book.html">BOOK</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Book Now</h1>
+    
+    </section>
+<!-----------------------Contact us------------------->
+
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56235.90237103962!2d28.279359010842697!3d-28.245451926649544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e92bda1fb287cef%3A0x1c80af21a0405f53!2sBethlehem!5e0!3m2!1sen!2sza!4v1670600184072!5m2!1sen!2sza" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</section>
+
+<Section class="book-us">
+
+    <div class="row">
+        <div class="book-col">
+            <div>
+                <i class="fa fa-home"></i>
+                <span>
+                    <h5> Free State, South Africa</h5>
+                    <p> Bethlehem</p>
+                </span>
+
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <span>
+                    <h5>Contact Ositak Anytime</h5>
+                    <p> WhatsApp: +27 60 435 5703</p>
+                    <p> Cell: +27 72 145 1857</p>
+                </span>
+
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <span>
+                    <h5>Email us your query</h5>
+                    <p>Katisokasane1@gmail.com</p>
+                    
+                </span>
+           </div>
+        </div>
+
+    <div class="book-col">
+        <form action="form-handler.php" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <input type="email" name="email" placeholder="Enter Email Address " required>
+            <input type="text" name="desired deal package" placeholder="Enter your desired deal" required>
+            <textarea rows="8" name="message" placeholder="Message us" required></textarea>
+            <button type="Submit" class="hero-btn red-btn">Send Message</button>
+        </form>
+
+
+        </div>
+    </div>
+
+
+
+</Section>
+
+
+
+<!-----------------------Footer------------------->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Founded and Based in the Free State, Ositak Photography is run and managed by CEO; Katiso Kasane. </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-youtube"></i>
+
+    </div>
+    <br></br>
+    <br></br>
+    <br></br>
+
+
+    <p>made by <i class="fa fa-instagram"></i> its_ojay</p>
+
+
+</section>
+
+
+<!----------------Use JavaScript to asign Toggle Function on Menu------------>
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0px";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
